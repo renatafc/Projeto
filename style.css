@@ -1,6 +1,192 @@
-body{
-    background-color: rgb(241, 235, 245);
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans:wght@300;800 & family= Playfair+Display:ital,wght@0,700;1,700 & display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    
 }
-.baner{
-    background-image: assets/image 1.png;
+:root {
+    --titulo-branco: #FFFFFF;
+    --titulo-verde: #0B1D03;
+    --titulo-verde-claro: #A0996C;
+    --titulo-branco-acessorios:  #FFFCF6;
+    --titulo-footer: #1F1F1F;
+    --fundo-footer: #F7F1E6;
+
+}
+.baner-1, .baner-burguer, .black-coffe{
+    display: flex;
+    flex-direction: row;
+}
+.baner-1{
+    font-family: 'Playfair Display', serif;
+    color: var(--titulo-branco);
+    font-size: 50px;
+    width: 1350px;
+    height: 1000px;
+    background-image: url(assets/contener.png);
+    background-size: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.baner-burguer, black-coffe, .sacola{
+    display: flex;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 50px;
+   
+}
+.destaques{
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.destaque{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.destaque img{
+    height:400px;
+}
+.destaque-texto{
+    font-weight: 400;
+    line-height: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px ;
+    color: var(--titulo-verde);
+}
+.destaque-texto{
+    width: 300px;
+    margin: 30px;
+}
+
+h2{
+    font-family: 'Playfair Display', serif; ;
+    font-weight: 700;
+    color: var(--titulo-verde);
+    width: 500px;
+    margin: 30px;
+}
+
+body{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    background-color:  #FFFCF6;
+    color: black
+}
+header{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+   
+}
+.pacote{
+    display: flex;
+    justify-content: space-around;
+  
+   
+}
+.pacote-1{
+   display: flex;
+   justify-content: space-around;
+}
+{
+    cursor:pointer;
+    margin-top: 20px;
+    align-items: center;
+    background-color: var(--titulo-verde);
+}
+.carrinho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+}
+.catalog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.catalogo{
+    width: 36,67%;
+    height:100%;
+    background-image: url(assets/catálogo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+} 
+.catalogo h2{
+     font-family: 'Plafair Display';
+     font-style: normal;
+     font-weight:700;
+     font-size: 40px;
+    line-height: 60px;
+    color: #FFFCF6;
+    padding-top:250px;
+
+}
+.catalogo p{
+    font-family: 'Manrope';
+    font-style:normal;
+    font-weight:500;
+    font-size: 13px;
+    line-height:18px;
+    padding-top: 5px;
+    letter-spacing: 0.04em;
+    color: #FFFCF6;
+    padding-left:20px
+}
+.acessorios{
+    width: 36,67%;
+    height:auto;
+    background-image: url(assets/acessorio.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+        
+} 
+.acessorios h2{
+    font-family: 'Plafair Display';
+    font-style: normal;
+    font-weight:700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFCF6;
+     padding-top:250px;
+    
+}
+.acessorios p{
+        font-family: 'Manrope';
+        font-style:normal;
+        font-weight:500;
+        font-size: 13px;
+        line-height:18px;
+        padding-top: 5px;
+        letter-spacing: 0.04em;
+        color: #FFFCF6;
+        padding-left:20px
+}
+.cafe{
+    margin: 0;
+    font-size: 30px;
+    line-heigh: 100px;
+    background-image: url(assets/Café mágico.png);
+}
+
+.cafe p{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgb(156, 47, 47);
+  
+   
 }
