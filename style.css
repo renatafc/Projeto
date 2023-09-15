@@ -37,8 +37,12 @@
     
 }
 .black-coffe{
-    padding-block: 2%;
-    padding-left:80px;
+    padding-block: 1%;
+    padding-left:30px;
+    text-align: center;
+    font-family: 'Playfair Display';  
+    font-weight: 700;
+   
 
 }
 .sliders{
@@ -141,7 +145,8 @@ h2{
     text-align: center;
     font-weight: 300;
     font-size: 15px;
-    color:var(--titulo-verde)
+    color:var(--titulo-verde);
+    padding-top: 30px;
 }
 .coffe-2{
     padding-left: 20%;
