@@ -384,7 +384,7 @@ h2{
     color: #969696;
     position:relative;
     top: 90px;
-    width: 50%;
+    width: 60%;
     height: 8%;
     left: 10%;
     height: 55px;
@@ -395,7 +395,7 @@ h2{
 }
 .lupa{
     position: absolute;
-   padding-left: 70px;
+   padding-left: 100px;
    padding-top: 95px;
     
 }
