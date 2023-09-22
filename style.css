@@ -123,12 +123,13 @@ h1{
 .Coffee-1{
     height: 80%;
     position: relative;
+    
 
 }
 .Coffee{
    height: 80%;
    position: relative;
-   left: 100px;
+   left: 170px;
    top: -120px;
 }
 .coffe{
@@ -176,12 +177,16 @@ h2{
     margin-left:-20%;
     position: relative;
     left: 30%;
+    
 
 }
 .valor-1{
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     color: var(--titulo-verde);
+    left: 35%;
+    
+
     
 
 }
@@ -189,6 +194,7 @@ h2{
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #969696;
+    
 
 }
 .ad-carrinho{
@@ -211,12 +217,12 @@ h2{
 .variedades{
     font-size: 40px;
     position:relative;
-    top: -300px;
+    top: -250px;
     left: 5px;
 }
 .variedades-1{
     position:relative;
-    top: -300px;
+    top: -200px;
     background-color: var(--fundo-footer);
     border-radius: 2%;
     width: 400px;
@@ -235,7 +241,6 @@ h2{
     
 }
 
-
 .pacote{
     display: flex;
     justify-content: space-around;
@@ -251,7 +256,7 @@ h2{
  }
  .carrinho{
     position:relative;
-    top: -300px;
+    top: -100px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -261,7 +266,7 @@ h2{
 }
 .catalog{
     position: relative;
-    top: -350px;
+    top: -200px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -343,7 +348,7 @@ h2{
 }
 .loja{
     position:relative;
-    top: -250px;
+    top: -70px;
     font-family: 'Plafair Display';
     font-style: normal;
     font-size: 40px;
@@ -353,13 +358,12 @@ h2{
 
 }
 
-
 .map{
     position:relative;
-    top: -200px;
+    top: -40px;
     line-height: 10%;
     width: 95%;
-    height: 120vh;
+    height: 500px;
     position: relative;
     left: 2%;
    
@@ -403,7 +407,7 @@ h2{
 
 input{
     
-	background-repeat:no-repeat;  
+    background-repeat:no-repeat;  
     padding-left: 13px;
     display: flex;
     align-items: center;
@@ -411,23 +415,20 @@ input{
     
 }
 
-
 .form{
     display: flex;
     flex-direction: row;
     position: relative;
-    top: -350px;
+    top: -150px;
 }
 footer{
-    position:relative;
-    top: -150px;
-    width: 100%;
+    margin-top: -3px;
     display: flex;
     flex-direction: column;
     background-color: var(--fundo-footer);
-    height: 300px;}
-
-    
+    height: 320px;
+   
+} 
 .containers{
     font-family: 'Open Sans', sans-serif;
     font-weight:300;
@@ -438,8 +439,6 @@ footer{
     position: relative;
     top: -50px;
 }
-
-
 .black{
     font-family: 'Plafair Display';
     font-weight:700;
@@ -447,6 +446,7 @@ footer{
     color: var(--titulo-verde);
     padding-top: 100px;
 }
+
 .container h6{
     font-size: 16px;
     font-weight: 500;
@@ -485,44 +485,6 @@ a{
     margin-left: 11px;
     width: 120px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
 
 
 
