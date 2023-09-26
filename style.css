@@ -257,7 +257,7 @@ h2{
 }
  .carrinho{
     position:relative;
-    top: -100px;
+    top: -250px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -267,7 +267,7 @@ h2{
 }
 .catalog{
     position: relative;
-    top: -200px;
+    top: -350px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -349,7 +349,7 @@ h2{
 }
 .loja{
     position:relative;
-    top: -70px;
+    top: -200px;
     font-family: 'Plafair Display';
     font-style: normal;
     font-size: 40px;
@@ -361,10 +361,10 @@ h2{
 
 .map{
     position:relative;
-    top: -40px;
+    top: -200px;
     line-height: 10%;
     width: 95%;
-    height: 500px;
+    height: 400px;
     position: relative;
     left: 2%;
    
@@ -378,7 +378,7 @@ h2{
     position:relative;
     top: 90px;
     border-color: #0B1D03 solid;
-    left:3%;
+    left:2%;
    width: 25%;
    height: 60px;
    border: 2px solid #0B1D03;
@@ -390,7 +390,7 @@ h2{
     color: #969696;
     position:relative;
     top: 90px;
-    width: 60%;
+    width: 61%;
     height: 8%;
     left: 10%;
     height: 55px;
@@ -420,10 +420,10 @@ input{
     display: flex;
     flex-direction: row;
     position: relative;
-    top: -150px;
+    top: -300px;
 }
 footer{
-    margin-top: -3px;
+    margin-top: -150px;
     display: flex;
     flex-direction: column;
     background-color: var(--fundo-footer);
