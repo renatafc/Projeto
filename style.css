@@ -129,7 +129,7 @@ h1{
 .Coffee{
    height: 80%;
    position: relative;
-   left: 170px;
+   left: 130px;
    top: -120px;
 }
 .coffe{
@@ -137,15 +137,42 @@ h1{
     font-size: 40px;
 }
 .destaque-texto{
-    font-weight: 500px;
-    line-height: 28px;
+  
+    line-height: 30px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 30px ;
+    font-weight: 300px;
+    font-size: 20px ;
     color: var(--titulo-verde);
 }
 .destaque-texto{
     width: 500px;
     margin: 30px;
+}
+.destaque-texto-4{
+    
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300px;
+    font-size: 20px ;
+    color: var(--titulo-verde);
+    position: relative;
+    left: 25%;
+    bottom: 15%;
+    
+
+}
+.coffe-9{
+    font-family: 'Playfair Display';   
+    font-weight: 700;
+    color:var(--titulo-verde);
+    font-size: 40px;
+    position: relative;
+    left: 20%;
+    bottom: 10%;
+    
+    
+   
+
 }
   
 h2{
@@ -166,7 +193,7 @@ h2{
 }
 .coffe-2{
     padding-left: 25%;
-
+    
 }
 
   
@@ -219,7 +246,7 @@ h2{
     font-size: 40px;
     position:relative;
     top: -300px;
-    left: 49px;
+    left: 40px;
 }
 .variedades-1{
     position:relative;
@@ -278,6 +305,9 @@ h2{
     background-image: url(assets/catálogo.png);
     background-size: 100%;
     background-repeat: no-repeat;
+    width: 45%;
+    
+
     
 } 
 .catalogo h2{
@@ -308,8 +338,11 @@ h2{
     height:auto;
     background-image: url(assets/acessorio.png);
     background-size: 100%;
-    line-height:30px;
     background-repeat: no-repeat;
+    position: relative;
+    left: -2%;
+
+    
         
 } 
 .acessorios h2{
